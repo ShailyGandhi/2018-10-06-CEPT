@@ -291,7 +291,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
-  <h3>The Bash Shell</h3>
+ {% comment %} <h3>The Bash Shell</h3>
 
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
@@ -378,11 +378,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
     </div>
   </div>
-</div> {% comment %} End of 'shell' section. {% endcomment %}
+</div> {% endcomment %}
+{% comment %} End of 'shell' section. {% endcomment %}
 
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
-  <h3>Git</h3>
+{% comment %}  <h3>Git</h3>
   <p>
     Git is a version control system that lets you track who made changes
     to what when and has options for easily updating a shared or public
@@ -434,10 +435,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
     </div>
   </div>
-</div> {% comment %} End of 'Git' section. {% endcomment %}
+</div> {% endcomment %}
+{% comment %} End of 'Git' section. {% endcomment %}
 
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
-  <h3>Text Editor</h3>
+{% comment %}<h3>Text Editor</h3>
 
   <p>
     When you're writing code, it's nice to have a text editor that is
@@ -506,13 +508,14 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
     </div>
   </div>
-</div> {% comment %} End of 'editor' section. {% endcomment %}
+</div>{% endcomment %} {% comment %} End of 'editor' section. {% endcomment %}
 
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
            Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility {% endcomment %}
-  <h3>Python</h3>
+  {% comment %}
+<h3>Python</h3>
 
   <p>
     <a href="https://python.org">Python</a> is a popular language for
@@ -591,7 +594,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         </li>
       </ol>
     </div>
-  </div>
+  </div>{% endcomment %}
 {% comment %}
   <p>
   Once you are done installing the software listed above,
@@ -653,7 +656,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </div> {% comment %} End of 'R' section. {% endcomment %}
 {% comment %}
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
-  <h3>SQLite</h3>
+{% comment %}  <h3>SQLite</h3>
 
   <p>
     SQL is a specialized programming language used with databases.  We
@@ -696,10 +699,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
-</div> {% comment %} End of 'SQLite' section. {% endcomment %}
-{% endcomment %}
+</div> {% endcomment %}
+{% comment %} End of 'SQLite' section. {% endcomment %}
+
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
-  <h3>OpenRefine</h3>
+ {% comment %}
+ <h3>OpenRefine</h3>
   <p>
     For this lesson you will need <em>OpenRefine</em> and a
     web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
@@ -743,7 +748,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
     </div>
   </div>
-</div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+</div> {% endcomment %}
+{% comment %} End of 'OpenRefine' section. {% endcomment %}
 
 {% comment %}
 <div id="vm">
