@@ -177,6 +177,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% comment %} 
  SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
+{% comment %} 
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "swc" %} 
@@ -189,7 +190,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% endif %}
-
+{% endcomment %}
 <hr/>
 
 
