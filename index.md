@@ -47,7 +47,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4> <i>The Data Carpentry Geospatial workshop aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less efforts.  Data Carpentry’s teaching is hands-on, so participants are encouraged to use their own computers to ensure the proper setup of tools for an efficient workflow. 
+<h4> <i>The Data Carpentry Geospatial workshop aims to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less efforts.  Data Carpentry’s teaching is hands-on, so participants are encouraged to use their own computers to ensure the proper setup of tools for an efficient workflow. 
  <br> 
  <br>
 To most effectively use this material, please make sure you download the data and install everything before working through this lesson.</i></h4>
