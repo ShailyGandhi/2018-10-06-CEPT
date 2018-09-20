@@ -150,6 +150,13 @@ To most effectively use this material, please make sure you download the data an
   organizers in advance.  
 </p>
 
+<p id="Seats">
+  <strong>Number of Seats</strong>:
+  Due to the limited availability of seats, early registration is strongly recommended to ensure your participation. Please
+Send us a mail for Registration which must be received no later than October 3, 2018 with your CV.   
+</p>
+
+
 {% comment %}
   CONTACT EMAIL ADDRESS
 
@@ -157,7 +164,7 @@ To most effectively use this material, please make sure you download the data an
 {% endcomment %}
 <p id="contact">
   <strong>Contact</strong>:
-  Please email
+  For Registration and more information please email
   {% if page.email %}
     {% for email in page.email %}
       {% if forloop.last and page.email.size > 1 %}
@@ -172,7 +179,7 @@ To most effectively use this material, please make sure you download the data an
   {% else %}
     to-be-announced
   {% endif %}
-  for more information.
+ .
 </p>
 
 <hr/>
