@@ -153,7 +153,7 @@ To most effectively use this material, please make sure you download the data an
 <p id="Seats">
   <strong>Number of Seats</strong>:
   Due to the limited availability of seats, early registration is strongly recommended to ensure your participation. Please
-Register Online using this <a href="https://docs.google.com/forms/d/e/1FAIpQLSdi1fYjiAoObbXlh2o7gwGyobkKrubrsLvrAoSjCyDZsenHaQ/viewform?usp=sf_link"> Link </a> which must be received no later than October 3, 2018 with your CV.   
+Register Online using this <a href="https://goo.gl/forms/asAUV1JH70W1nkIY2"> Link </a> which must be received no later than October 3, 2018 with your CV.   
 </p>
 
 
